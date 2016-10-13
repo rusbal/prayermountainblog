@@ -11,7 +11,14 @@ class BlogController extends Controller
 {
     public function index()
     {
-        $published = Name::published()->with('latestRevision')->get();
+        $published = Name::published()->first();
+
+        return redirect('/article/' . $published->id);
+    }
+
+    public function view($articleId)
+    {
+        $published = Name::whereId($articleId)->with('latestRevision')->get();
 
         return view('blog.index', compact('published'));
     }

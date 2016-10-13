@@ -12,6 +12,7 @@
 */
 
 Route::get('/', 'BlogController@index');
+Route::get('/article/{article}', 'BlogController@view');
 
 Auth::routes();
 
