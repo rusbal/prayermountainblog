@@ -106,7 +106,7 @@ body {
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
   body {
-    font-size: 12px; }
+    font-size: 14px; }
   .card_wrap {
     margin-left: calc(7% / 2);
     width: 93%; }
@@ -120,7 +120,7 @@ body {
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
   body {
-    font-size: 10px; }
+    font-size: 12px; }
   .card_wrap {
     display: block;
     margin-left: 0;
