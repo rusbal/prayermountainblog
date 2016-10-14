@@ -1,5 +1,6 @@
 <html>
 <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>{{ $published->first()->latestRevision->name }} | {{ $published->first()->latestRevision->user->name }}</title>
     <link href="{{ elixir('css/blog.css') }}" rel="stylesheet">
 </head>
