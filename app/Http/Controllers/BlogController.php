@@ -11,7 +11,7 @@ class BlogController extends Controller
 {
     public function index()
     {
-        $published = Name::published()->first();
+        $published = Name::published()->whereOrder(1)->first();
 
         return redirect('/article/' . $published->id);
     }
