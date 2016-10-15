@@ -106,7 +106,7 @@ body {
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
   body {
-    font-size: 14px; }
+    font-size: 15px; }
   .card_wrap {
     margin-left: calc(7% / 2);
     width: 93%; }
@@ -120,7 +120,9 @@ body {
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
   body {
-    font-size: 12px; }
+    font-size: 14px; }
+  h1 {
+    font-size: 1.5em !important; }
   .card_wrap {
     display: block;
     margin-left: 0;
@@ -134,7 +136,7 @@ body {
       .card_wrap .card_body.active .footer .author {
         float: right !important; }
     .card_wrap .card_body.active .article {
-      padding: 0.5em 1em; }
+      padding: 0.25em 0.5em; }
     .card_wrap .a, .card_wrap .b {
       width: 100%;
       width: 100vw; }
