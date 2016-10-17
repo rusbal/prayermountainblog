@@ -4,7 +4,6 @@
 html,
 body {
   height: 100%;
-  background-image: url(https://hd.unsplash.com/37/IHLjdHdzSvi0rgUMMlSK_TE3_0286.jpg);
   background-size: cover;
   font-family: 'Roboto Condensed', sans-serif;
   margin: 0; }
@@ -99,8 +98,16 @@ body {
   font-weight: 300;
   line-height: 1.4; }
 
+@media only screen and (min-width: 769px) {
+  html,
+  body {
+    background-image: url(https://hd.unsplash.com/37/IHLjdHdzSvi0rgUMMlSK_TE3_0286.jpg); } }
+
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
+  html,
+  body {
+    background-image: url(https://hd.unsplash.com/37/IHLjdHdzSvi0rgUMMlSK_TE3_0286.jpg); }
   body {
     font-size: 15px; }
   .card_wrap {
@@ -116,6 +123,9 @@ body {
 /* Extra Small Devices, Phones */
 /*@media only screen and (max-width : 480px) {*/
 @media only screen and (max-width: 568px) {
+  html,
+  body {
+    background-image: url("/img/leaf.jpg"); }
   body {
     font-size: 14px; }
   h1 {
