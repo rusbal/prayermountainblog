@@ -34,6 +34,7 @@ body {
   left: 25px;
   color: transparent;
   transition: all 0.5s ease-in-out 0.5s;
+  width: calc(100% - 50px);
 }
 
 .card_body .description {
@@ -130,6 +131,7 @@ body {
 
             .description, .footer {
                 left: 10px;
+                width: calc(100% - 20px);
             }
 
             .article {

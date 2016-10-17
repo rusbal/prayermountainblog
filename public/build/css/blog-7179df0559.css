@@ -31,7 +31,8 @@ body {
   left: 25px;
   color: transparent;
   -webkit-transition: all 0.5s ease-in-out 0.5s;
-  transition: all 0.5s ease-in-out 0.5s; }
+  transition: all 0.5s ease-in-out 0.5s;
+  width: calc(100% - 50px); }
 
 .card_body .description {
   top: 380px; }
@@ -116,7 +117,8 @@ body {
     .card_wrap .card_body.active {
       height: 90%; }
       .card_wrap .card_body.active .description, .card_wrap .card_body.active .footer {
-        left: 10px; }
+        left: 10px;
+        width: calc(100% - 20px); }
       .card_wrap .card_body.active .article {
         padding: 0.5em 1em; } }
 
